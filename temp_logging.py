@@ -42,7 +42,7 @@ handler.setFormatter(formatter)
 #attach handler to logger
 logger.addHandler(handler)
 
-slogger = Streamer(bucket_name="whatever you name it", client_key="key generated at initialstate.com")
+slogger = Streamer(bucket_name="whatever you name it", access_key="key generated at initialstate.com")
 
 #make a class to capture stdout and sterr in the log
 class MyLogger(object):
